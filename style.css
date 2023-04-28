@@ -269,6 +269,87 @@ main {
 
 footer {
     background: #191919;
+    padding-top: 75px;
+}
+
+.footer-txt {
+    font-weight: 400;
+    font-size: 16px;
+    color: #8D8D8D;
+    margin-top: 95px;
+    margin-bottom: 35px;
+}
+
+.footer-icons {
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+
+.fa-brands {
+    border: 1px solid #363636;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-brands:hover {
+    border: 1px solid #55ACE3;
+    color: #55ACE3;
+}
+
+.terms {
+    font-weight: 500;
+    font-size: 14px;
+    color: #616161;
+    margin-bottom: 13px;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 14px;
+    color: #616161;
+    margin-bottom: 32px;
+}
+
+.imgimg1 {
+    width: 70%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.imgimg2 {
+    width: 70%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.footer-bolt-list-item {
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer-bolt-list-item i {
+    margin-right: 5px;
+}
+
+.footer-list-item {
+    font-weight: 400;
+    font-size: 18px;
+    color: #797979;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.footer-list-item:hover{
+    color: #ffe;
 }
 
 @media (max-width: 575px) {
