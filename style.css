@@ -7,6 +7,13 @@
     outline: none;
 }
 
+body {
+    background-image: url(./image/bg.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.500);
+    backdrop-filter: blur(15px);
+}
+
 ul,
 li,
 ol,
@@ -116,10 +123,6 @@ nav {
 
 main {
     padding-top: 69px;
-    background-image: url(./image/bg.jpg);
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.500);
-    backdrop-filter: blur(15px);
 }
 
 .recommended {
@@ -250,10 +253,92 @@ main {
     transform: scale(1.3);
 }
 
-.mb--{
+.mb-- {
     margin-bottom: 113px;
 }
 
-footer{
+.Menu {
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+/* .menu-icon{ */
+
+/* } */
+
+footer {
     background: #191919;
+}
+
+@media (max-width: 575px) {
+    .carousel {
+        background-image: url(./image/onair-slide-1\ 1.png);
+        height: 390px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .carousel-control-next {
+        position: absolute;
+        top: 314px;
+        right: 25px;
+    }
+
+    .carousel-control-prev {
+        position: absolute;
+        top: 314px;
+        left: 25px;
+    }
+
+    .bg--- {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(15px);
+    }
+
+    .dive {
+        font-weight: 300;
+        font-size: 24px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .free {
+        background: #E13C52;
+        border-radius: 60px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+        padding: 15px 30px;
+        margin-top: 20px;
+    }
+
+    .carousel-item {
+        padding: 0;
+        text-align: center;
+        height: 50vh;
+        padding-top: 20px;
+    }
+
+    .recommended {
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+
+    .card-one{
+        width: 100%;
+        height: 13vh;
+        padding: 0;border-radius: 10px;
+    }
+
+    .box{
+        width: 100%;
+        display: none;
+    }
+
+    .banner{
+        display: none;
+    }
 }
