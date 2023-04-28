@@ -348,7 +348,7 @@ footer {
     cursor: pointer;
 }
 
-.footer-list-item:hover{
+.footer-list-item:hover {
     color: #ffe;
 }
 
@@ -426,5 +426,37 @@ footer {
 
     .view-all {
         display: none;
+    }
+
+    footer {
+        padding-top: 54px;
+    }
+
+    .accordion-item {
+        box-shadow: none;
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .accordion-button:not(.collapsed) {
+        box-shadow: none;
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .accordion-button {
+        box-shadow: none !important;
+        font-weight: 500 !important;
+        font-size: 20px !important;
+        color: #FFFFFF !important;
+        border-top: 1px solid #262626 !important;
+        border-bottom: 1px solid #262626 !important;
+    }
+
+    .footer-second-logo{
+        margin-top: 58px;
+        margin-bottom: 43px;
     }
 }
